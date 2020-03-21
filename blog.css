@@ -5,12 +5,13 @@ body, html {
   }
 
 body {
-    background-image: none;
+    background-image: url('marpic.jpeg');
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     
 }
+
 
 header {
     text-align: center;
@@ -22,12 +23,25 @@ header {
 .articles {
     display: flex;
     flex-direction: column;
+    width: 500px;
     margin:50px;
     margin-left: 350px;
     margin-right: 350px;
     line-height: 30px;
     text-align: justify;
     align-items: center;
+}
+.article-title {
+     color:darkgreen;
+         }
+
+article:first-child {
+margin-bottom: 200px;
+
+}
+article:last-child{
+margin-top: 100px;
+
 }
 
 footer {
