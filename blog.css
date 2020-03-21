@@ -1,0 +1,36 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+body {
+    background-image: none;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+header {
+    text-align: center;
+    margin: 70px;
+
+}
+
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    margin:50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    line-height: 30px;
+    text-align: justify;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+}
