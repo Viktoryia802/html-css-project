@@ -23,24 +23,22 @@ header {
 .articles {
     display: flex;
     flex-direction: column;
-    width: 500px;
-    margin:50px;
-    margin-left: 350px;
-    margin-right: 350px;
+    width: 600px;
+    margin-left: 300px;
     line-height: 30px;
     text-align: justify;
-    align-items: center;
+    
 }
 .article-title {
      color:darkgreen;
          }
 
 article:first-child {
-margin-bottom: 200px;
+margin-bottom: 150px;
 
 }
 article:last-child{
-margin-top: 100px;
+margin-top: 50px;
 
 }
 
